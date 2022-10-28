@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.PostRegisterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-28T09:01:48" hostname="VLAD-IVANOV" time="15.336">
+  <properties/>
+  <testcase name="postLoginTest()" classname="tests.PostRegisterTest" time="15.336"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+HTTP/1.1 200 OK
+Date: Fri, 28 Oct 2022 09:02:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PxoZjaldhQsdAG4RHLkyMnW16ktYooLVDAVi5ycVoseNVWGqZl48e3g4rw9Zfjh%2BfHePhOp3zMcDUXvc3N9DZ5dcadVxpb9Ll7PrD%2BPreX23hU39qmKkgcwY5Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 76127d7daeb71646-DME
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
