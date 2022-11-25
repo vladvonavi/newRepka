@@ -16,9 +16,14 @@ import static util.RegisterReqFactory.getRegisterRequest;
 import static steps.Steps.assertStatusCode;
 import static steps.Steps.checkFieldValue;
 
+@Epic("QaRepka")
+@Feature("Ivanov project")
+@Story("Allure")
+@Owner("Vlad Ivanov")
+@ExtendWith(AllureJunit5.class)
+@DisplayName("Suit 1")
 public class PostRegisterTest {
     RegisterReqDto registerReqDto = getRegisterRequest();
-//  RegisterResDto registerResDto = getRegisterRequest();
 
     @BeforeAll
     public static void preCondition(){
@@ -53,24 +58,29 @@ public class PostRegisterTest {
     }
 
     @Test
-    @Order(2)
+    @Order(1)
     @DisplayName("Второй тест")
     void postRegisterTestTwo(){
         Response postResponse = postRegister(registerReqDto);
-        assert postResponse.path("id").toString().equals("4");
-        assert postResponse.path("token").toString().equals("QpwL5tke4Pnpja7X4");
+        // assert postResponse.path("id").toString().equals("4");
+        // assert postResponse.path("token").toString().equals("QpwL5tke4Pnpja7X4");
 
-        assertNotNull(postResponse.path("id").toString());
-        assertNotNull(postResponse.path("token").toString());
+        // assertNotNull(postResponse.path("id").toString());
+        // assertNotNull(postResponse.path("token").toString());
+
+        step("Проверяем ответ на запрос", () -> {
+            assertStatusCode(postResponse, 400);
+            checkFieldValue(postResponse, "error", "user not found");
+        });
     }
 
     @Test
-    @Order(1)
+    @Order(0)
     @DisplayName("Третий тест")
     void postRegisterTestThree(){
         Response postResponse = postRegister(registerReqDto);
-        assert postResponse.path("id").toString().equals("4");
-        assert postResponse.path("token").toString().equals("QpwL5tke4Pnpja7X4");
+        // assert postResponse.path("id").toString().equals("4");
+        // assert postResponse.path("token").toString().equals("QpwL5tke4Pnpja7X4");
 
         assertNotNull(postResponse.path("id").toString());
         assertNotNull(postResponse.path("token").toString());

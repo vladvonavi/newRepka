@@ -4,11 +4,109 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9d8779d-5901-4b42-a8f0-deb3e1038e84" name="Changes" comment="Правки по прошлым работам.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f9d8779d-5901-4b42-a8f0-deb3e1038e84" name="Changes" comment="Правки по аллюру.">
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/bin/allure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/bin/allure.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/config/allure-cucumber.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/config/allure-junit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/config/allure.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/allure-commandline-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/allure-generator-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/allure-model-2.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/allure-plugin-api-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/allure1-model-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/commons-collections4-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/commons-lang3-3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/commons-text-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/config/jetty-logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/config/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/flexmark-0.50.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/flexmark-util-0.50.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/freemarker-2.3.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/httpclient-4.5.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/httpcore-4.4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jackson-dataformat-xml-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jackson-dataformat-yaml-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jackson-module-jaxb-annotations-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jaxb-utils-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jcommander-1.78.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jetty-http-9.4.20.v20190813.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jetty-io-9.4.20.v20190813.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jetty-server-9.4.20.v20190813.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/jetty-util-9.4.20.v20190813.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/opencsv-4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/properties-2.0.RC5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/slf4j-api-1.7.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/slf4j-log4j12-1.7.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/stax2-api-3.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/tika-core-1.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/lib/woodstox-core-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/behaviors-plugin/behaviors-plugin-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/behaviors-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/custom-logo-plugin/custom-logo-plugin-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/jira-plugin-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/lib/allure-jira-commons-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/lib/converter-jackson-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/lib/okhttp-3.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/lib/okio-1.15.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/jira-plugin/lib/retrofit-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/junit-xml-plugin/junit-xml-plugin-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/packages-plugin/packages-plugin-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/packages-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/screen-diff-plugin/screen-diff-plugin-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/trx-plugin/trx-plugin-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xctest-plugin/xctest-plugin-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/lib/allure-jira-commons-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/lib/converter-jackson-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/lib/okhttp-3.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/lib/okio-1.15.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/lib/retrofit-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xray-plugin/xray-plugin-2.13.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.allure/allure-2.13.8/plugins/xunit-xml-plugin/xunit-xml-plugin-2.13.8.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/steps/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/tests/PostRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/tests/PostRegisterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,19 +140,14 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="IvanovProject" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="IvanovProject" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="IvanovProject" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -83,9 +176,131 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/леново/IdeaProjects/QaRepkaNew"
+    "last_opened_file_path": "C:/Users/леново/IdeaProjects/QaRepkaNew",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RunManager" selected="Gradle.RestAssuredLesson-master [allureServe]">
+    <configuration name="PostRegisterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/RestAssuredLesson-master" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.PostRegisterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestAssuredLesson-master [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/RestAssuredLesson-master" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestAssuredLesson-master [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/RestAssuredLesson-master" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestAssuredLesson-master [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/RestAssuredLesson-master" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestAssuredLesson-master [downloadAllure]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/RestAssuredLesson-master" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="downloadAllure" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RestAssuredLesson-master [allureServe]" />
+        <item itemvalue="Gradle.PostRegisterTest" />
+        <item itemvalue="Gradle.RestAssuredLesson-master [clean]" />
+        <item itemvalue="Gradle.RestAssuredLesson-master [allureReport]" />
+        <item itemvalue="Gradle.RestAssuredLesson-master [downloadAllure]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -116,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669358461519</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Правки по аллюру.">
+      <created>1669361602204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669361602204</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +356,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New commit" />
     <MESSAGE value="Правки по прошлым работам." />
-    <option name="LAST_COMMIT_MESSAGE" value="Правки по прошлым работам." />
+    <MESSAGE value="Правки по аллюру." />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки по аллюру." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
