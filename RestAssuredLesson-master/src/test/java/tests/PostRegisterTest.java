@@ -1,16 +1,20 @@
 package tests;
 
 import dto.RegisterReqDto;
-import dto.RegisterResDto;
+import io.qameta.allure.*;
+import io.qameta.allure.junit5.AllureJunit5;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.extension.ExtendWith;
 
-
+import static io.qameta.allure.Allure.step;
 import static methods.RegisterTestRestAssured.postRegister;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static util.RegisterReqFactory.getRegisterRequest;
 
 //import void dto.RegisterResDto.setToken;
+import static steps.Steps.assertStatusCode;
+import static steps.Steps.checkFieldValue;
 
 public class PostRegisterTest {
     RegisterReqDto registerReqDto = getRegisterRequest();
@@ -35,6 +39,7 @@ public class PostRegisterTest {
     public static void postCondition(){
         System.out.println("ОБЩИЕ ПОСТУСЛОВИЯ");
     }
+
     @Test
     @Disabled
     @DisplayName("Первый тест")
@@ -50,7 +55,7 @@ public class PostRegisterTest {
     @Test
     @Order(2)
     @DisplayName("Второй тест")
-    void postRegisterTest(){
+    void postRegisterTestTwo(){
         Response postResponse = postRegister(registerReqDto);
         assert postResponse.path("id").toString().equals("4");
         assert postResponse.path("token").toString().equals("QpwL5tke4Pnpja7X4");
@@ -62,7 +67,7 @@ public class PostRegisterTest {
     @Test
     @Order(1)
     @DisplayName("Третий тест")
-    void postRegisterTest(){
+    void postRegisterTestThree(){
         Response postResponse = postRegister(registerReqDto);
         assert postResponse.path("id").toString().equals("4");
         assert postResponse.path("token").toString().equals("QpwL5tke4Pnpja7X4");
