@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9d8779d-5901-4b42-a8f0-deb3e1038e84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/tests/PostRegisterParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/tests/PostRegisterParameterizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/tests/PostRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/tests/PostRegisterTest.java" afterDir="false" />
+    <list default="true" id="f9d8779d-5901-4b42-a8f0-deb3e1038e84" name="Changes" comment="New commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +79,6 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/леново/IdeaProjects/untitled"
   }
 }]]></component>
@@ -100,6 +91,21 @@
       <option name="presentableId" value="Default" />
       <updated>1668757164131</updated>
     </task>
+    <task id="LOCAL-00001" summary="New commit">
+      <created>1668766869825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668766869825</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New commit">
+      <created>1668766898186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668766898186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,5 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="New commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit" />
   </component>
 </project>
