@@ -5,35 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9d8779d-5901-4b42-a8f0-deb3e1038e84" name="Changes" comment="Правки по аллюру.">
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/formObjects/FormObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/steps/UiSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/allure-results/249cc20e-b7ea-48eb-8238-f31aac6f146d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/allure-results/4ebef6bc-6c2a-4955-ad61-4f33908c4053-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/allure-results/6bb6c119-5f2f-4a12-b1ac-4d02cd52e479-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/allure-results/7a37674d-c5ef-4bd3-be2d-64ae9d943257-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/allure-results/ebcb0cf8-9f7c-4206-81f2-1c2361e78d87-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/allure-results/ee173f2e-4317-4e82-a7ba-a98862d0c73e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/classes/java/test/steps/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/classes/java/test/steps/Steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/classes/java/test/tests/PostRegisterParameterizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/classes/java/test/tests/PostRegisterParameterizedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/classes/java/test/tests/PostRegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/classes/java/test/tests/PostRegisterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/classes/tests.PostRegisterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/classes/tests.PostRegisterTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/test-results/test/TEST-tests.PostRegisterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/test-results/test/TEST-tests.PostRegisterTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/AddressElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/AddressElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/LoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/RegisterResDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/RegisterResDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/methods/FirstTestRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/methods/FirstTestRestAssured.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/methods/RegisterTestRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/methods/RegisterTestRestAssured.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/steps/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/util/LoginFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/util/LoginFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/util/RegisterReqFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/util/RegisterReqFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +49,25 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="allureSelenoid" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -79,19 +81,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/леново/IdeaProjects/QaRepkaNew&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/леново/IdeaProjects/RestAssuredLesson",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.RestAssuredLesson-master [allureServe]">
     <configuration name="PostRegisterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
