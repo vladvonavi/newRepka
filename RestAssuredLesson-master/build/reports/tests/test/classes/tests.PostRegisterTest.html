@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">11.239s</div>
+<div class="counter">32.476s</div>
 <p>duration</p>
 </div>
 </td>
@@ -74,7 +74,7 @@
 <h2>Failed tests</h2>
 <div class="test">
 <a name="postRegisterTestThree()"></a>
-<h3 class="failures">РўСЂРµС‚РёР№ С‚РµСЃС‚</h3>
+<h3 class="failures">Третий тест</h3>
 <span class="code">
 <pre>java.lang.NullPointerException: Cannot invoke &quot;Object.toString()&quot; because the return value of &quot;io.restassured.response.Response.path(String, String[])&quot; is null
 	at tests.PostRegisterTest.postRegisterTestThree(PostRegisterTest.java:85)
@@ -181,21 +181,21 @@
 </tr>
 </thead>
 <tr>
-<td class="skipped">РџРµСЂРІС‹Р№ С‚РµСЃС‚</td>
+<td class="skipped">Первый тест</td>
 <td class="skipped">postRegisterTest()</td>
 <td class="skipped">-</td>
 <td class="skipped">ignored</td>
 </tr>
 <tr>
-<td class="failures">РўСЂРµС‚РёР№ С‚РµСЃС‚</td>
+<td class="failures">Третий тест</td>
 <td class="failures">postRegisterTestThree()</td>
-<td class="failures">0.879s</td>
+<td class="failures">0.524s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">Р’С‚РѕСЂРѕР№ С‚РµСЃС‚</td>
+<td class="success">Второй тест</td>
 <td class="success">postRegisterTestTwo()</td>
-<td class="success">10.356s</td>
+<td class="success">31.951s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -203,8 +203,8 @@
 <div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>РћР‘Р©Р?Р• РџР Р•Р”РЈРЎР›РћР’Р?РЇ
-РџР Р•Р”РЈРЎР›РћР’Р?РЇ РџР•Р Р•Р” РљРђР–Р”Р«Рњ РўР•РЎРўРћРњ
+<pre>ОБЩИЕ ПРЕДУСЛОВИЯ
+ПРЕДУСЛОВИЯ ПЕРЕД КАЖДЫМ ТЕСТОМ
 Request method:	POST
 Request URI:	https://reqres.in/api/register
 Proxy:			&lt;none&gt;
@@ -218,11 +218,11 @@ Cookies:		&lt;none&gt;
 Multiparts:		&lt;none&gt;
 Body:
 {
-    &quot;email&quot;: &quot;мария.игнатова@gmail.com&quot;,
-    &quot;password&quot;: &quot;t37derwsyq&quot;
+    &quot;email&quot;: &quot;борис.комиссарова@mail.ru&quot;,
+    &quot;password&quot;: &quot;0pjsacc8&quot;
 }
 HTTP/1.1 400 Bad Request
-Date: Fri, 25 Nov 2022 10:56:48 GMT
+Date: Fri, 02 Dec 2022 10:55:14 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 57
 Connection: keep-alive
@@ -231,16 +231,16 @@ Access-Control-Allow-Origin: *
 Etag: W/&quot;39-6jrJxn+7f+pQUhbPgNMst7tagpA&quot;
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=BHao%2FEsoH2kTnYta5TTUsK2YW5pdJSrnDUqbhFrX4bze1jK1W1rLe3NSZuWaU%2FmOKEBlUlgWr5aEjWlakIlnOfjeMJd2aDYFBkSQ17OPzYM8TkoNoTP%2FrdCVEg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=265ZZRI%2F1ZEDvw5lEm9ApToG0um5PIbM7zN4v%2B%2FEPAZB3bDDNGhHS%2BY0M0UxqGSNgBk9Coeb7T4FJzlBThEgZUlKXZgex7O6CJW5RxLQ7eJAdVKOsN%2BbNh0Atw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 Server: cloudflare
-CF-RAY: 76f9dc1bde0e7b47-DME
+CF-RAY: 7733877298bf16c3-DME
 
 {
     &quot;error&quot;: &quot;Note: Only defined users succeed registration&quot;
 }
-РџРћРЎРўРЈРЎР›РћР’Р?РЇ РџРћРЎР›Р• РљРђР–Р”РћР“Рћ РўР•РЎРўРђ
-РџР Р•Р”РЈРЎР›РћР’Р?РЇ РџР•Р Р•Р” РљРђР–Р”Р«Рњ РўР•РЎРўРћРњ
+ПОСТУСЛОВИЯ ПОСЛЕ КАЖДОГО ТЕСТА
+ПРЕДУСЛОВИЯ ПЕРЕД КАЖДЫМ ТЕСТОМ
 Request method:	POST
 Request URI:	https://reqres.in/api/register
 Proxy:			&lt;none&gt;
@@ -254,11 +254,11 @@ Cookies:		&lt;none&gt;
 Multiparts:		&lt;none&gt;
 Body:
 {
-    &quot;email&quot;: &quot;олег.тихонова@hotmail.com&quot;,
-    &quot;password&quot;: &quot;ze3j464ac86j&quot;
+    &quot;email&quot;: &quot;маргарита.ширяев@ya.ru&quot;,
+    &quot;password&quot;: &quot;e6ygqlhi872utp8&quot;
 }
 HTTP/1.1 400 Bad Request
-Date: Fri, 25 Nov 2022 10:56:52 GMT
+Date: Fri, 02 Dec 2022 10:55:28 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 57
 Connection: keep-alive
@@ -267,16 +267,16 @@ Access-Control-Allow-Origin: *
 Etag: W/&quot;39-6jrJxn+7f+pQUhbPgNMst7tagpA&quot;
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=hkm1x%2F8OgNUi2VLkYzk7FRixPnWOljJ4dQWSQd2DfbHmqhBUidF%2B48tHq9sxf%2BIJg4T2atxg4HrA1%2B8ersMlOvFrFW%2BRf7XQS5236XIOBuDt6AevZO1YIH%2FgNA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=aEJ5YYt94Sk9Az01j1uWqZy%2FxWzX8Ri19xnztqxMQww3zV%2BpPOaPrCnIUjMBAAoNxY6noOGRU4aLk%2FL%2BuYLYhbO0fpJAw0l3gH3%2FI3%2BhVJ%2BOCzAjsamVa%2FxJFw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 Server: cloudflare
-CF-RAY: 76f9dc37cea59d67-DME
+CF-RAY: 773387c90b6e16cf-DME
 
 {
     &quot;error&quot;: &quot;Note: Only defined users succeed registration&quot;
 }
-РџРћРЎРўРЈРЎР›РћР’Р?РЇ РџРћРЎР›Р• РљРђР–Р”РћР“Рћ РўР•РЎРўРђ
-РћР‘Р©Р?Р• РџРћРЎРўРЈРЎР›РћР’Р?РЇ
+ПОСТУСЛОВИЯ ПОСЛЕ КАЖДОГО ТЕСТА
+ОБЩИЕ ПОСТУСЛОВИЯ
 </pre>
 </span>
 </div>
@@ -288,7 +288,7 @@ CF-RAY: 76f9dc37cea59d67-DME
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 25 нояб. 2022 г., 13:56:58</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 2 дек. 2022 г., 13:55:44</p>
 </div>
 </div>
 </body>

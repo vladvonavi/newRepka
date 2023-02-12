@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Suit 1" tests="3" skipped="1" failures="1" errors="0" timestamp="2022-11-25T10:56:45" hostname="VLAD-IVANOV" time="11.451">
+<testsuite name="Suit 1" tests="3" skipped="1" failures="1" errors="0" timestamp="2022-12-02T10:55:04" hostname="VLAD-IVANOV" time="32.575">
   <properties/>
-  <testcase name="РџРµСЂРІС‹Р№ С‚РµСЃС‚" classname="tests.PostRegisterTest" time="0.004">
+  <testcase name="Первый тест" classname="tests.PostRegisterTest" time="0.001">
     <skipped/>
   </testcase>
-  <testcase name="Р’С‚РѕСЂРѕР№ С‚РµСЃС‚" classname="tests.PostRegisterTest" time="10.356"/>
-  <testcase name="РўСЂРµС‚РёР№ С‚РµСЃС‚" classname="tests.PostRegisterTest" time="0.879">
+  <testcase name="Второй тест" classname="tests.PostRegisterTest" time="31.951"/>
+  <testcase name="Третий тест" classname="tests.PostRegisterTest" time="0.524">
     <failure message="java.lang.NullPointerException: Cannot invoke &quot;Object.toString()&quot; because the return value of &quot;io.restassured.response.Response.path(String, String[])&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;Object.toString()&quot; because the return value of &quot;io.restassured.response.Response.path(String, String[])&quot; is null
 	at tests.PostRegisterTest.postRegisterTestThree(PostRegisterTest.java:85)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -97,8 +97,8 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <system-out><![CDATA[РћР‘Р©Р?Р• РџР Р•Р”РЈРЎР›РћР’Р?РЇ
-РџР Р•Р”РЈРЎР›РћР’Р?РЇ РџР•Р Р•Р” РљРђР–Р”Р«Рњ РўР•РЎРўРћРњ
+  <system-out><![CDATA[ОБЩИЕ ПРЕДУСЛОВИЯ
+ПРЕДУСЛОВИЯ ПЕРЕД КАЖДЫМ ТЕСТОМ
 Request method:	POST
 Request URI:	https://reqres.in/api/register
 Proxy:			<none>
@@ -112,11 +112,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "мария.игнатова@gmail.com",
-    "password": "t37derwsyq"
+    "email": "борис.комиссарова@mail.ru",
+    "password": "0pjsacc8"
 }
 HTTP/1.1 400 Bad Request
-Date: Fri, 25 Nov 2022 10:56:48 GMT
+Date: Fri, 02 Dec 2022 10:55:14 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 57
 Connection: keep-alive
@@ -125,16 +125,16 @@ Access-Control-Allow-Origin: *
 Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BHao%2FEsoH2kTnYta5TTUsK2YW5pdJSrnDUqbhFrX4bze1jK1W1rLe3NSZuWaU%2FmOKEBlUlgWr5aEjWlakIlnOfjeMJd2aDYFBkSQ17OPzYM8TkoNoTP%2FrdCVEg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=265ZZRI%2F1ZEDvw5lEm9ApToG0um5PIbM7zN4v%2B%2FEPAZB3bDDNGhHS%2BY0M0UxqGSNgBk9Coeb7T4FJzlBThEgZUlKXZgex7O6CJW5RxLQ7eJAdVKOsN%2BbNh0Atw%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 76f9dc1bde0e7b47-DME
+CF-RAY: 7733877298bf16c3-DME
 
 {
     "error": "Note: Only defined users succeed registration"
 }
-РџРћРЎРўРЈРЎР›РћР’Р?РЇ РџРћРЎР›Р• РљРђР–Р”РћР“Рћ РўР•РЎРўРђ
-РџР Р•Р”РЈРЎР›РћР’Р?РЇ РџР•Р Р•Р” РљРђР–Р”Р«Рњ РўР•РЎРўРћРњ
+ПОСТУСЛОВИЯ ПОСЛЕ КАЖДОГО ТЕСТА
+ПРЕДУСЛОВИЯ ПЕРЕД КАЖДЫМ ТЕСТОМ
 Request method:	POST
 Request URI:	https://reqres.in/api/register
 Proxy:			<none>
@@ -148,11 +148,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "олег.тихонова@hotmail.com",
-    "password": "ze3j464ac86j"
+    "email": "маргарита.ширяев@ya.ru",
+    "password": "e6ygqlhi872utp8"
 }
 HTTP/1.1 400 Bad Request
-Date: Fri, 25 Nov 2022 10:56:52 GMT
+Date: Fri, 02 Dec 2022 10:55:28 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 57
 Connection: keep-alive
@@ -161,16 +161,16 @@ Access-Control-Allow-Origin: *
 Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hkm1x%2F8OgNUi2VLkYzk7FRixPnWOljJ4dQWSQd2DfbHmqhBUidF%2B48tHq9sxf%2BIJg4T2atxg4HrA1%2B8ersMlOvFrFW%2BRf7XQS5236XIOBuDt6AevZO1YIH%2FgNA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aEJ5YYt94Sk9Az01j1uWqZy%2FxWzX8Ri19xnztqxMQww3zV%2BpPOaPrCnIUjMBAAoNxY6noOGRU4aLk%2FL%2BuYLYhbO0fpJAw0l3gH3%2FI3%2BhVJ%2BOCzAjsamVa%2FxJFw%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 76f9dc37cea59d67-DME
+CF-RAY: 773387c90b6e16cf-DME
 
 {
     "error": "Note: Only defined users succeed registration"
 }
-РџРћРЎРўРЈРЎР›РћР’Р?РЇ РџРћРЎР›Р• РљРђР–Р”РћР“Рћ РўР•РЎРўРђ
-РћР‘Р©Р?Р• РџРћРЎРўРЈРЎР›РћР’Р?РЇ
+ПОСТУСЛОВИЯ ПОСЛЕ КАЖДОГО ТЕСТА
+ОБЩИЕ ПОСТУСЛОВИЯ
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
