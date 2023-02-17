@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9d8779d-5901-4b42-a8f0-deb3e1038e84" name="Changes" comment="Правки по аллюру.">
-      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/formObjects/FormObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/steps/UiSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/AddressElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/AddressElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/LoginDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/RegisterResDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/dto/RegisterResDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/methods/FirstTestRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/methods/FirstTestRestAssured.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/methods/RegisterTestRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/methods/RegisterTestRestAssured.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/steps/Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/util/LoginFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/util/LoginFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/util/RegisterReqFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLesson-master/src/test/java/util/RegisterReqFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +37,10 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="allureSelenoid" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,19 +56,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/леново/IdeaProjects/RestAssuredLesson",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/леново/IdeaProjects/QaRepkaNew&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.RestAssuredLesson-master [allureServe]">
     <configuration name="PostRegisterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
