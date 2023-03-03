@@ -1,0 +1,4 @@
+.allure/allure-2.13.8
+.gradle
+build
+gradle/wrapper
