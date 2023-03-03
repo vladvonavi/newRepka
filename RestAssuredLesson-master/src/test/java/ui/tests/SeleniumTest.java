@@ -10,6 +10,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static formObjects.FormObjects.firstNameTextField;
 import static steps.UiSteps.setValueInTextField;
+import static ui.pageObjects.QaDemoPage.demoPage;
 
 public class SeleniumTest extends TestBase {
     String firstName = "Vladislav";
@@ -99,3 +100,4 @@ public class SeleniumTest extends TestBase {
         ); // проверяем форму
     }
 }
+
