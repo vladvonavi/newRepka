@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Проверка страницы пользователя" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-18T16:07:59" hostname="VLAD-IVANOV" time="111.449">
+  <properties/>
+  <testcase name="Тест первый" classname="tests.SelenideTest" time="111.449"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 11364
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+февр. 18, 2023 7:09:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: 107
+]]></system-err>
+</testsuite>
